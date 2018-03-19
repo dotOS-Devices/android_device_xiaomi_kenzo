@@ -18,14 +18,14 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-# Inherit some common Cardinal-AOSP stuff.
-$(call inherit-product, vendor/cardinal/common.mk)
+# Inherit some common DotOSP stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := cardinal_kenzo
+PRODUCT_NAME := dot_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
